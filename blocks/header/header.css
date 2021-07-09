@@ -1,0 +1,19 @@
+.header {
+  width: 89%;
+  margin: 56px auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+  .header {
+  margin: 26px auto;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .header {
+    margin: 16px auto;
+  }
+}
