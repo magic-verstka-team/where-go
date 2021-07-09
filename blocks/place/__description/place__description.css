@@ -1,0 +1,22 @@
+.place__description {
+  color: #010101;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 70px 80px 100px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__description {
+    padding: 35px 40px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__description {
+    width: 100%;
+    padding: 20px;
+  }
+}

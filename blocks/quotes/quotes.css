@@ -1,0 +1,17 @@
+.quotes {
+  padding: 150px 75px 140px;
+  list-style-type: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .quotes {
+    padding: 75px 40px 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quotes {
+    padding: 20px 20px 40px 20px;
+  }
+}

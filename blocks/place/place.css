@@ -1,0 +1,21 @@
+.place {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  min-height: 600px;
+}
+
+.place:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .place:nth-child(2n) {
+    flex-direction: column;
+  }
+}
