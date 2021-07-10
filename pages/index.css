@@ -12,7 +12,6 @@
 @import url(../blocks/chapter/chapter.css);
 @import url(../blocks/chapter/__title/chapter__title.css);
 @import url(../blocks/chapter/__subtitle/chapter__subtitle.css);
-@import url(../blocks/chapter/_width-small/chapter_width-small.css);
 
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
