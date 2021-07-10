@@ -3,6 +3,7 @@
   object-fit: cover;
   object-position: center;
   max-height: 600px;
+  transition: all 1s ease;
 }
 
 @media screen and (max-width: 768px) {

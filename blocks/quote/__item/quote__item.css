@@ -1,6 +1,13 @@
 .quote__item {
   max-width: 250px;
   margin: 75px 20px 0 0;
+  transition: transform 1s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__item:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media screen and (max-width: 640px) {
