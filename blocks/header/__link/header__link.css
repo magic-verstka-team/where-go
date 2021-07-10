@@ -10,3 +10,13 @@
 .header__link:hover {
   opacity: .5;
 }
+
+@media screen and (max-width: 425px) {
+  .header__link:hover {
+    opacity: none;
+  }
+
+  .header__link:focus {
+    opacity: .5;
+  }
+}
